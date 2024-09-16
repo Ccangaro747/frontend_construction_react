@@ -126,6 +126,8 @@ const Home = () => {
               </p>
             </ul>
           </div>
+          <hr />
+          <div className="text-center pt-4">Copyright © 2024 UrbanEdge Constructions. All Right Reserved.</div>
         </div>
       </div>
     </footer>
