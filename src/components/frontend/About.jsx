@@ -1,8 +1,14 @@
+import Footer from "../common/Footer";
+import Header from "../common/Header";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <>
+      <Header />
+      <main>About</main>
+      <Footer />
+    </>
+  );
+};
 
-export default About
+export default About;
