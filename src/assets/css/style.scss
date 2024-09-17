@@ -4,6 +4,7 @@ $secondary-color: #ffb703;
 $text-color: #000;
 $text-white: #ffffff;
 $dark-background: #222725;
+$light-backgroud: #9e9b9b;
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
@@ -36,6 +37,10 @@ ul {
   }
 }
 
+.bg-light {
+  background-color: $light-backgroud;
+}
+
 .btn-primary {
   background-color: $primary-color;
   border: 1px solid $primary-color;
@@ -59,6 +64,17 @@ ul {
   &:hover {
     background-color: $primary-color;
     border: 1px solid $primary-color;
+  }
+}
+
+.section-header{
+  span{
+    color: $primary-color;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 500;
   }
 }
 
@@ -136,4 +152,8 @@ footer {
     text-transform: uppercase;
     font-weight: 500;
   }
+}
+
+.section-3 {
+
 }

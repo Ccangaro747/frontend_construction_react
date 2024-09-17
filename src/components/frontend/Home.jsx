@@ -39,6 +39,20 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      {/*Our Services*/}
+
+      <section className='section-3 bg-light py-5'>
+        <div className='container-fluid py-5'>
+          <div className='section-header text-center'>
+            <span>Our Services</span>
+            <h2>Our construction services</h2>
+            <p>We offer a diverse array of construction services, spanning residential, commercial, and insdustrial projects.</p>
+          </div>
+        </div>
+      </section>
+
+
     </main>
     <Footer />
     </>
