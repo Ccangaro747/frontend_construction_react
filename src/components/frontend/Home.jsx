@@ -3,6 +3,7 @@ import Footer from "../common/Footer";
 import Header from "../common/Header";
 import ServiceImg from '../../assets/images/construction1.jpg';
 import ConstructionImg from '../../assets/images/construction2.jpg';
+import BlogImg from '../../assets/images/construction3.jpg';
 import Icon1 from '../../assets/images/icon-1.svg';
 import Icon2 from '../../assets/images/icon-2.svg';
 import Icon3 from '../../assets/images/icon-3.svg';
@@ -36,8 +37,8 @@ const Home = () => {
                   to quality
                 </p>
                 <div className="mt-4">
-                  <a className="btn btn-primary">Contact Now</a>
-                  <a className="btn btn-secondary ms-2">View Projects</a>
+                  <a className="btn btn-primary large">Contact Now</a>
+                  <a className="btn btn-secondary ms-2 large">View Projects</a>
                 </div>
               </div>
             </div>
@@ -95,7 +96,7 @@ const Home = () => {
                     <div className="service-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum augue at ex eleifend ultricies. Praesent sagittis turpis tortor, sit amet ultrices libero pellentesque at.</p>
                     </div>
-                    <a href="#" className="btn btn-primary">Read More</a>
+                    <a href="#" className="btn btn-primary small">Read More</a>
                   </div>
                 </div>
               </div>
@@ -111,7 +112,7 @@ const Home = () => {
                     <div className="service-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum augue at ex eleifend ultricies. Praesent sagittis turpis tortor, sit amet ultrices libero pellentesque at.</p>
                     </div>
-                    <a href="#" className="btn btn-primary">Read More</a>
+                    <a href="#" className="btn btn-primary small">Read More</a>
                   </div>
                 </div>
               </div>
@@ -127,7 +128,7 @@ const Home = () => {
                     <div className="service-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum augue at ex eleifend ultricies. Praesent sagittis turpis tortor, sit amet ultrices libero pellentesque at.</p>
                     </div>
-                    <a href="#" className="btn btn-primary">Read More</a>
+                    <a href="#" className="btn btn-primary small">Read More</a>
                   </div>
                 </div>
               </div>
@@ -143,7 +144,7 @@ const Home = () => {
                     <div className="service-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum augue at ex eleifend ultricies. Praesent sagittis turpis tortor, sit amet ultrices libero pellentesque at.</p>
                     </div>
-                    <a href="#" className="btn btn-primary">Read More</a>
+                    <a href="#" className="btn btn-primary small">Read More</a>
                   </div>
                 </div>
               </div>
@@ -226,7 +227,7 @@ const Home = () => {
                     <div className="service-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum augue at ex eleifend ultricies. Praesent sagittis turpis tortor, sit amet ultrices libero pellentesque at.</p>
                     </div>
-                    <a href="#" className="btn btn-primary">Read More</a>
+                    <a href="#" className="btn btn-primary small">Read More</a>
                   </div>
                 </div>
               </div>
@@ -242,7 +243,7 @@ const Home = () => {
                     <div className="service-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum augue at ex eleifend ultricies. Praesent sagittis turpis tortor, sit amet ultrices libero pellentesque at.</p>
                     </div>
-                    <a href="#" className="btn btn-primary">Read More</a>
+                    <a href="#" className="btn btn-primary small">Read More</a>
                   </div>
                 </div>
               </div>
@@ -258,7 +259,7 @@ const Home = () => {
                     <div className="service-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum augue at ex eleifend ultricies. Praesent sagittis turpis tortor, sit amet ultrices libero pellentesque at.</p>
                     </div>
-                    <a href="#" className="btn btn-primary">Read More</a>
+                    <a href="#" className="btn btn-primary small">Read More</a>
                   </div>
                 </div>
               </div>
@@ -274,7 +275,7 @@ const Home = () => {
                     <div className="service-content">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum augue at ex eleifend ultricies. Praesent sagittis turpis tortor, sit amet ultrices libero pellentesque at.</p>
                     </div>
-                    <a href="#" className="btn btn-primary">Read More</a>
+                    <a href="#" className="btn btn-primary small">Read More</a>
                   </div>
                 </div>
               </div>
@@ -445,6 +446,58 @@ const Home = () => {
               </Swiper>
           </div>
         </section>
+
+        <section className="section-6 bg-light py-5">
+          <div className="container">
+          <div className="section-header text-center">
+              <span>Blog & News</span>
+              <h2>Articles & blog posts</h2>
+              <p>We specialize in a wide range of construction services. Including residential, commercial, and industrial projects.</p>
+          </div>
+          <div className="row pt-3">
+            <div className="col-md-4">
+              <div className="card shadow border-0">
+                <div className="card-img-top">
+                  <img src={BlogImg} alt="" className="w-100" />
+                </div>
+                <div className="card-body p-4">
+                  <div className="mb-3">
+                    <a href="" className="title">Dummy blog title</a>
+                  </div>
+                    <a href="" className="btn btn-primary small">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card shadow border-0">
+                <div className="card-img-top">
+                  <img src={BlogImg} alt="" className="w-100" />
+                </div>
+                <div className="card-body p-4">
+                  <div className="mb-3">
+                    <a href="" className="title">Dummy blog title</a>
+                  </div>
+                    <a href="" className="btn btn-primary small">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card shadow border-0">
+                <div className="card-img-top">
+                  <img src={BlogImg} alt="" className="w-100" />
+                </div>
+                <div className="card-body p-4">
+                  <div className="mb-3">
+                    <a href="" className="title">Dummy blog title</a>
+                  </div>
+                    <a href="" className="btn btn-primary small">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+
       </main>
       <Footer />
     </>
