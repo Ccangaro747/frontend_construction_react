@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 
 const Hero = ({ preHeading, heading, text }) => {
   return (
@@ -7,12 +8,18 @@ const Hero = ({ preHeading, heading, text }) => {
           <div className="text-left">
             <span>{preHeading}</span>
             <h1>{heading}</h1>
-            <p dangerouslySetInnerHTML={{ __html:text }}></p>
+            <p dangerouslySetInnerHTML={{ __html: text }}></p>
           </div>
         </div>
       </div>
     </section>
   );
+};
+
+Hero.propTypes = {
+  preHeading: PropTypes.string.isRequired,
+  heading: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default Hero;
