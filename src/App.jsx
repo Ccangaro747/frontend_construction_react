@@ -1,8 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./components/frontend/home";
+import Home from "./components/frontend/Home";
 import About from "./components/frontend/About";
 import './assets/css/style.scss';
+import Services from "./components/frontend/Services";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
         </Routes>
       </BrowserRouter>
     </>
