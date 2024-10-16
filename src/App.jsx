@@ -4,6 +4,7 @@ import Home from "./components/frontend/Home";
 import About from "./components/frontend/About";
 import './assets/css/style.scss';
 import Services from "./components/frontend/Services";
+import Projects from "./components/frontend/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </BrowserRouter>
     </>
