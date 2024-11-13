@@ -8,6 +8,9 @@ import Projects from "./components/frontend/Projects";
 import Blogs from "./components/frontend/Blogs";
 import ConctactUs from "./components/frontend/ConctactUs";
 import Login from "./components/backend/Login";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Dashboard from "./components/backend/Dashboard";
 
 function App() {
   return (
@@ -21,9 +24,12 @@ function App() {
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<ConctactUs />} />
           <Route path="/admin/login" element={<Login />} />
-
+          <Route path="/admin/dashboard" element={<Dashboard />} />
         </Routes>
       </BrowserRouter>
+      <ToastContainer 
+        position="top-center"
+      />
     </>
   );
 }
